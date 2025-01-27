@@ -1,0 +1,106 @@
+.page-wrapper {
+  display: grid;
+  height: 100%;
+}
+.main-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url("https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2072&q=80");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: brightness(0.9) contrast(1.1) saturate(1.2);
+}
+.header-wrapper {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  backdrop-filter: blur(10px);
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.brand-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffd700;
+  text-decoration: none;
+}
+.nav-link {
+  margin-left: 2rem;
+  text-decoration: none;
+  color: #ffd700;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+.main-content {
+  flex: 1;
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+.hero-section {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 10px;
+  margin-bottom: 3rem;
+  backdrop-filter: blur(10px);
+}
+.hero-title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+  color: #ffd700;
+}
+.hero-description {
+  font-size: 1.2rem;
+  color: #ffd700;
+  margin-bottom: 2rem;
+}
+.primary-button {
+  background-color: #ffd700;
+  color: white;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.3s;
+  font-size: 1rem;
+}
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+.feature-card {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(10px);
+}
+.feature-icon {
+  font-size: 2rem;
+  color: #ffd700;
+}
+.feature-title {
+  margin: 1rem 0;
+  color: #ffd700;
+}
+.footer-wrapper {
+  background-color: rgba(255, 215, 0, 0.9);
+  color: white;
+  padding: 2rem 1rem;
+  margin-top: 3rem;
+  backdrop-filter: blur(10px);
+}

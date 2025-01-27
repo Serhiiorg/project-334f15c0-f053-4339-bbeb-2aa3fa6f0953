@@ -1,0 +1,9 @@
+{
+  "packages": [],
+  "preferredPackageManager": "pnpm",
+  "orm": null,
+  "auth": null,
+  "alias": "@",
+  "rootPath": "/tmp/starter-project/",
+  "export": false
+}
